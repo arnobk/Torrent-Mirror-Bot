@@ -82,8 +82,6 @@ def bot_help(update, context):
 /{BotCommands.AuthorizeCommand}: Authorize a chat or a user to use the bot (Can only be invoked by owner of the bot)
 
 /{BotCommands.LogCommand}: Get a log file of the bot. Handy for getting crash reports
-
-Watch video - https://youtu.be/07Pj9YLdpM4
 '''
     sendMessage(help_string, context.bot, update)
 
